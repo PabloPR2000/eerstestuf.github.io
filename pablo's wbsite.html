@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> index.html </title>
+  </head>
+  <style>
+body
+{
+    background-color: lightgreen;
+
+}
+H2
+{
+  color: red;
+  font-family:sans-serif;
+}
+H1
+{
+  color:blue;
+  font-family: monospace;
+}
+td,th
+{
+  color:red;
+  background-color:yellow;
+}
+table,td,th
+{
+  border: 1px solid white;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 15px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column side">
+  </ul>
+  <table border="1xp">
+    <tr>
+    <th>number</th>
+    <th>name ahtlete</th>
+    <th>sportscategory</th>
+    <th>photo</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Epke Zonderland</td>
+    <td>Gymnastics</td>
+    <td><img width="130" height="95" src="https://www.omropfryslan.nl/data/files/styles/omnibox_thumbnail/public/imagenodes/Epke2.jpg"></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Dafne Schippers</td>
+    <td>sprint</td>
+    <td> <img width="90" height="90" src="https://www.aa-drink.com/files/thumb/d/a/Sporters_auto_auto_c90_c90_q_dafne__.jpg"></td>
+  </tr>
+    <tr>
+    <td>3</td>
+    <td>Ronaldo</td>
+    <td>football player</td>
+    <td><img width="160" height="160" src="https://www.futwiz.com/assets/img/fifa17/faces/20801.png"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Roger Federer</td>
+    <td>tennis player</td>
+    <td><img width="120" height="120" src="http://cdn.cnn.com/cnnnext/dam/assets/150710180943-roger-federer-looks-serious-small-11.jpg"></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Lewis Hamilton</td>
+    <td>F1 driver</td>
+    <td><img width="95" height="95" src="http://argomenti.ilsole24ore.com/Immagini/Persone/lewis-hamilton/images/fotohome8.jpg"></td>
+  </tr>
+  </table>
+  <img width="400" height="300" src="C:\Users\HP ELiteBook 745 G2\Pictures\Camera Roll\coding.jpg">
+  <img width="400" height="250" src="C:\Users\HP ELiteBook 745 G2\Pictures\Camera Roll\078120.jpg" alt="">
+
+  </div>
+  <div class="column middle">
+    <h2>About myself</h2>
+    <p>hi, there my name is <strong> Pablo </strong>. I'm twelve years old</p>
+    <p>I,m a student on the<strong> Metis Montessori Lyceum</strong></p>
+    <img width="300" length="100" src="C:\Users\HP ELiteBook 745 G2\Pictures\Camera Roll\fortofolio-foto.jpg">
+    <h2>Hobbies</h2>
+    <p>My hobbies are: </p>
+    <ul>
+      <li>gaming</li>
+      <li>programming</li>
+      <li>hanging out with friends</li>
+    </ul>
+    <h2>Contact</h2>
+    <p>You can contact me at my e-mail: <strong>pablo.perez.raya@coderclass.com</strong></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.476961788846!2d4.915992950882651!3d52.361770979685296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609711f21356f%3A0x4698c2612bcb276b!2sMetis+Montessori+Lyceum!5e0!3m2!1snl!2snl!4v1537621906495" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe width="400" height="400" src="https://nl.wikipedia.org/wiki/Hoofdpagina"></iframe>
+  </div>
+  <div class="column side">
+
+    <h2>Fun links</h2>
+    <p>These are fun videos on youtube</p>
+    <p><a href="https://www.youtube.com/watch?v=gtBi1niC6M8&t=1734s" target="_blank"> This is a fun compilation of a game called <strong>Star Wars Battlefront</strong></a> </p>
+    <p><a href="https://www.youtube.com/watch?v=2CeurT8vjU0" target="_blank"> This is another fun compilaton but this one is,<strong> a animation</strong></a></p>
+    <h2>Lists with my favorite things</h2>
+    <ul>
+      <li>Favorite websites</li>
+      <ol>
+        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+        <li><a href="https://www.netflix.com/" target="_blank">netflix</a></li>
+        <li><a href="https://www.google.com/" target="_blank">google</a></li>
+      </ol>
+      <li>Favorite games</li>
+      <ol>
+        <li>Star Wars Battlefront 2</li>
+        <li>Jurassic World Evolution</li>
+        <li>GTA5</li>
+      </ol>
+      <li>Favourite food</li>
+      <ol>
+        <li>Los Todos</li>
+        <li>steak</li>
+        <li>pizza Margerita</li>
+      </ol>
+  </div>
+</div>
+  </body>
+</html>
